@@ -6,4 +6,6 @@ numberOfChildren = 4; // Number Variable
 
 var isMarried = true; // Boolean Variable
 
-var wifeName = "NeSha";
+var wifeName = "NeSha"; // String Variable
+
+var employer = "CityOfJacksonville"; // String Variable
