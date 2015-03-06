@@ -5,3 +5,5 @@ numberOfChildren = 4; // Number Variable
 // 4 = number of children that I have
 
 var isMarried = true; // Boolean Variable
+
+var wifeName = "NeSha";
