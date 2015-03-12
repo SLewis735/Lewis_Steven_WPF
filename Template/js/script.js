@@ -1,3 +1,3 @@
 
-alert("hi, Sean");
+alert("hi,");
 
