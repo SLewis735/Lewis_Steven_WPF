@@ -14,3 +14,4 @@ var result = "You will need " + gallonsOfPaint + " gallons of paint and " + tota
 
 
 console.log(result);
+alert(result);
