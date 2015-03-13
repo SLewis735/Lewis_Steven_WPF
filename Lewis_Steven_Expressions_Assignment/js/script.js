@@ -10,6 +10,7 @@ var gallonsOfPaint = areaOfTheWalls / coveragePerGallon; //The number of gallons
 var percentageOfWaste = areaOfTheFloor / 10; // This is the allowance for waste.
 var totalAmountOfCarpet = areaOfTheFloor + percentageOfWaste; // This is the total square footage of carpet needed.
 var result = "You will need " + gallonsOfPaint + " gallons of paint and " + totalAmountOfCarpet + " square feet of carpet to complete this job.";
+// This is the results from the calculations of how many gallons of paint and how many square footage of carpet is needed to complete this job.
 
 
-console.log(result); // This is the results from the calculations of how many gallons of paint and how many square footage of carpet is needed to complete this job.
+console.log(result);
