@@ -7,4 +7,4 @@ var areaOfTheWalls = widthOfTheRoom * heightOfTheRoom * lengthOfTheRoom;
 var areaOfTheFloor = widthOfTheRoom * lengthOfTheRoom;
 var result = "The area of the walls to be painted " + areaOfTheWalls + " sq. ft. \nThe area of the floor to be carpeted " + areaOfTheFloor + " sq. ft.";
 
-alert(result);
+console.log(result);
