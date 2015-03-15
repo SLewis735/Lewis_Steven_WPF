@@ -1,4 +1,4 @@
-//Conditional Logic - else if
+//Conditional Logic - Relational Operators
 
 var kidHeight =46;
 var minHeight = 48;
