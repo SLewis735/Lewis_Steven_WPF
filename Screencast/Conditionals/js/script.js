@@ -1,14 +1,10 @@
-//Conditional Logic - Logical Operators
+//Conditional Logic - Ternary Operators
 
-var budget =100;
-var iPhonePrice = 199.99;
-var wonLottery = true;
+var gpa = 48;
+//if the gpa is over the min 2.0 score, the student can graduate
+/*if( gpa > 2.0){
+    console.log("You can graduate!");
+}else{console.log("GPA is too low!");
+}*/
 
-//if the price of the phone is less the out budget AND if our paycheck is over 300
-
-if(iPhonePrice < budget || wonLottery){
-    console.log("We can buy the phone!");
-}else {
-    console.log("No phone for you!!");
-
-}
+(gpa > 2.0) ? console.log("You can graduate!") : console.log("GPA is too low!");
