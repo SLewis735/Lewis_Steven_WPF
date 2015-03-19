@@ -13,19 +13,19 @@ var budget      = Number(costOfRent) + Number(carNote) + Number(otherBills); //T
 alert("Your budget for the month is " + budget);
 alert("Your income " +  income  + " is for the month");
 var netIncome   = Number(income) - Number(budget);            //This is the net income
-console.log("You net income is " + netIncome);
-//if(carNote == 0){
+    console.log("You net income is " + netIncome);
+if(carNote == 0){
         //console.log("You choose to ride the bus");
 
 }
-//if(income > budget){
-       // console.log("You can afford to stay in your house");
-        //The income was enough to sustain the budget
+if(income > budget){
+    console.log("You can afford to stay in your house");
+       //The income was enough to sustain the budget
 //}else if(busRider){
-       // console.log("You can stay in your house and ride the bus");
-        //You choose to ride the bus and keep your house
-}//else{
-       // console.log("You need to find a higher paying job or move back with mom");
+    console.log("You can stay in your house and ride the bus");
+       //You choose to ride the bus and keep your house
+}else{
+       console.log("You need to find a higher paying job or move back with mom");
 }       //The income was not enough to sustain the budget
 
 
