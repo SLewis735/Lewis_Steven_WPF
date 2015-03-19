@@ -34,6 +34,8 @@ if(income > budget){
        console.log("You need to find a higher paying job or move back with mom");
 }   //The income was not enough to sustain the budget
 
+var careerFuture = (income < 1000) ? "Ask for a raise" : "Celebrate staying at your job";
+console.log(careerFuture);
 
 
 
