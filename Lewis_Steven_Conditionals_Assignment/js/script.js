@@ -10,7 +10,8 @@ var income = rateOfPay * hoursOfWork;
 var budget = Number(costOfRent) + Number(carNote) + Number(otherBills);
 alert("Your budget for the month is " + budget);
 alert("Your income " +  income  + " is for the month");
-console.log(income - budget);
+var netIncome   = Number(income) - Number(budget);
+console.log("You net income is " + netIncome);
 
 if(income > budget){
         console.log("You can afford to stay in your house and keep your car");
