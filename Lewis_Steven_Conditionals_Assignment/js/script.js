@@ -1,5 +1,6 @@
 // Steven Lewis 031715 Conditionals Assignment
 
+//This is your budget planning.
 var costOfRent  = prompt("How much are you paying for rent");
 //This is how much you pay for rent.
 var carNote     = prompt("How much is your car note \nEnter 0 if you plan to ride the bus");
