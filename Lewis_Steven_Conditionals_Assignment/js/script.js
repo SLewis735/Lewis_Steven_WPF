@@ -14,6 +14,8 @@ console.log(income - budget);
 
 if(income > budget){
         console.log("You can afford to stay in your house and keep your car");
+}else{
+        console.log("You need to find a higher paying job or move back with mom");
 }
 
 
