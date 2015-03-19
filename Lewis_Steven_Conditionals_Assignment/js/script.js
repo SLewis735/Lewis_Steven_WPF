@@ -9,15 +9,18 @@ var rateOfPay   = prompt("What is you rate of pay per hour");
 var hoursOfWork = prompt("How many hours did you work");
 //This is how many hours you work on your job.
 var otherBills  = (Number(costOfRent) + Number(carNote))/3;
+    console.log("Your additional bills are " + otherBills);
 //This is a calculation for deciding the amount of the other bills.
-alert("Your additional bills are " + otherBills);
 var weeklyPay   = rateOfPay * hoursOfWork;
 var income      = weeklyPay *4;
 //This is the total income
 var budget      = Number(costOfRent) + Number(carNote) + Number(otherBills);
+    console.log("Your budget for the month is " + budget);
+alert("Your budget for the month is " + "$" + budget);
 //This is the amount of the budget.
-alert("Your budget for the month is " + budget);
-alert("Your income " +  income  + " is for the month");
+    console.log("Your income " + income  + " is for the month");
+alert("Your income " +  "$" + income  + " is for the month");
+//This is your total income.
 var netIncome   = Number(income) - Number(budget);
     console.log("You net income is " + netIncome);
 //This is the net income.
@@ -35,14 +38,14 @@ if(income > budget){
     console.log("You need to find a higher paying job or move back with mom.");
 }
 if(rateOfPay < 10){
-    console.log("Look for another job")
+    console.log("You may want to ask for a raise.")
 }
 //The income was not enough to sustain the budget.
 if(carNote > 400 && netIncome < 0){
-    console.log("You should maybe ride the bus.")
+    console.log("You should maybe ride the bus.");
 //You may need to decide to ride the bus.
 }
-var careerFuture = (netIncome < 1000) ? "Ask for a raise." : "Celebrate staying at your job.";
+var careerFuture = (netIncome < 1000) ? "Look for another job." : "Celebrate staying at your job.";
     console.log(careerFuture);
 //Deciding whether you are making enough on your job.
 
