@@ -43,7 +43,7 @@ if(rateOfPay < 10){
 }
 //The income was not enough to sustain the budget.
 if(carNote > 400 && netIncome < 0){
-    console.log("You should maybe ride the bus.");
+    console.log("You should maybe think of riding the bus.");
 //You may need to decide to ride the bus.
 }
 var careerFuture = (netIncome < 1000) ? "Look for another job." : "Celebrate staying at your job.";
