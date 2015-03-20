@@ -32,7 +32,7 @@ if(hoursOfWork < 30){
 if(income > budget){
     console.log("You can afford to stay in your house.");
 //The income was enough to sustain the budget.
-}else if((carNote == 0) && Number(netIncome < budget)){
+}else if((carNote == 0) || Number(netIncome < budget)){
     console.log("You may need to move with mom and ride the bus.");
 //You choose to ride the bus and keep your house.
 }else{
