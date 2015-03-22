@@ -4,7 +4,7 @@ var payRate = prompt("How much do you make an hour?");
 var hours = prompt("How many hours do you work per week?");
 var weeks = prompt("How many weeks a year do you work?");
 var annual= Number(payRate) * Number(hours) * weeks;
-alert(annual);
+    console.log(annual);
 
 if(annual < 25000){
     console.log("Sorry, you don't make enough.");
@@ -23,14 +23,17 @@ var netIncome = Number(annual) - Number(expenses);
 
 if(carNote > 250){
     console.log("Who you should get a bus token")
+    console.log("Ask your momma for a ride")
 }
 if(rent > 500){
     console.log("Get a room mate")
+    console.log("Or move back with your mom")
 }else{
     console.log("Enjoy your cheap rent")
+    console.log("Or living with your baby mama")
 }
 
     var careerFuture = (netIncome < 50000) ? "Look for another job." : "Celebrate staying at your job.";
 
     console.log(careerFuture);
-var alert = ("The End!!!");
+alert = ("The End!!!");
