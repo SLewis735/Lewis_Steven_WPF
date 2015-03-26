@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="096981c9-27ff-4992-8fec-922185670077" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Screencast/Functions/js/script.js" afterPath="$PROJECT_DIR$/Screencast/Functions/js/script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lewis_Steven_Functions_Assignment/js/script.js" afterPath="$PROJECT_DIR$/Lewis_Steven_Functions_Assignment/js/script.js" />
     </list>
     <ignored path="Lewis_Steven_WPF.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -66,10 +66,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Screencast/Functions/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.890511" vertical-offset="101" max-vertical-offset="450">
+            <state vertical-scroll-proportion="0.0" vertical-offset="101" max-vertical-offset="450">
               <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
               <folding />
             </state>
@@ -79,8 +79,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Lewis_Steven_Functions_Assignment/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="240">
-              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="240">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -116,11 +116,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Lewis_Steven_Functions_Assignment/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.6321839" vertical-offset="75" max-vertical-offset="555">
+              <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -144,11 +144,11 @@
         <option value="$PROJECT_DIR$/Screencast/Functions/index.html" />
         <option value="$PROJECT_DIR$/Practice/practice.html" />
         <option value="$PROJECT_DIR$/Practice/js/script.js" />
-        <option value="$PROJECT_DIR$/Lewis_Steven_Functions_Assignment/js/script.js" />
         <option value="$PROJECT_DIR$/Lewis_Steven_Functions_Assignment/index.html" />
         <option value="$PROJECT_DIR$/Function_Worksheet/index.html" />
         <option value="$PROJECT_DIR$/Function_Worksheet/js/script.js" />
         <option value="$PROJECT_DIR$/Screencast/Functions/js/script.js" />
+        <option value="$PROJECT_DIR$/Lewis_Steven_Functions_Assignment/js/script.js" />
       </list>
     </option>
   </component>
@@ -156,8 +156,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="601" />
-    <option name="y" value="537" />
+    <option name="x" value="125" />
+    <option name="y" value="286" />
     <option name="width" value="795" />
     <option name="height" value="491" />
   </component>
@@ -219,11 +219,7 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Screencast">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Functions">
+            <PATH_ELEMENT USER_OBJECT="Lewis_Steven_Functions_Assignment">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -237,11 +233,7 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Screencast">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Functions">
+            <PATH_ELEMENT USER_OBJECT="Lewis_Steven_Functions_Assignment">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -332,7 +324,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="601" y="537" width="795" height="491" extended-state="0" />
+    <frame x="125" y="286" width="795" height="491" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24310777" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -604,22 +596,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lewis_Steven_Functions_Assignment/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lewis_Steven_Functions_Assignment/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="240">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Function_Worksheet/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
@@ -646,8 +622,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Screencast/Functions/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.890511" vertical-offset="101" max-vertical-offset="450">
+        <state vertical-scroll-proportion="0.0" vertical-offset="101" max-vertical-offset="450">
           <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lewis_Steven_Functions_Assignment/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="250">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lewis_Steven_Functions_Assignment/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6321839" vertical-offset="75" max-vertical-offset="555">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
           <folding />
         </state>
       </provider>
