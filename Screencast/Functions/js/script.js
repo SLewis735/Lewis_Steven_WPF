@@ -1,13 +1,25 @@
-// Functions - Anonymous Functions
 
 
+//var b = 10;
 
-var calcArea = function(width, height) {
-    // code to function runs
-    var area = width * height;
-    return area;
+//while (b > 0) {
+  //  console.log(b + ' kegs on the walls');
+  //  b--;
+//}
+
+console.log('------Do While loops ---------');
+
+
+var c = 10;
+
+do{
+    console.log(c + ' kegs on the walls');
+    c--;
 }
+while(c > 0);
 
-var a = calcArea(20,30);
+console.log('---------For Loops ------');
 
-console.log(a);
+for (var i =10; i > 0; i--){
+    console.log(i + " kegs on the walls");
+}
