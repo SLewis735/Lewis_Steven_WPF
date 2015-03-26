@@ -19,17 +19,20 @@ function gameValidation (lotto) {
 
     }
     if (lotto === "yes") {
-        console.log("thank you");
+        console.log("Thank you");
     }
-
-
+    if (lotto === "no"){
+        console.log("Too bad, come back later when you want to play Florida Lottery");
+    }
+    return lotto;
 
 }
 
 //main code
-gameValidation(flLotto);
-
-
+lotto = gameValidation(flLotto);
+if (lotto === "yes") {
+    console.log("Let's Play");
+}
 
 
 
