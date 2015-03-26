@@ -41,10 +41,27 @@ function lottoNumberGen (max, min, num) {
     return lottoArray;
 }
 
+function numbersValidation (yourLottoNumbers) {
+    var timesClicked = 1;
+
+    while (yourLottoNumbers === ""){
+        yourLottoNumbers = prompt("Last chance at a life's dream");
+
+        timesClicked++;
+
+        if (timesClicked ===3){
+            alert("Sorry, you missed your chance");
+            break;
+        }
+
+    }
+    return yourLottoNumbers;
+}
 
 //main code
 lotto = gameValidation(flLotto);
 winningNumber = lottoNumberGen(1, 53, 6);
+yourLottoNumbers = numbersValidation();
 
 if (lotto === "yes") {
     console.log("Let's Play");
@@ -61,3 +78,13 @@ if (lotto === "yes") {
     }
 
 }
+
+
+
+
+
+
+
+
+/* The Florida lottery numbers: 43,18,4,10,40,32
+/* The Florida lottery numbers: 49,29,7,51,26,41 */
