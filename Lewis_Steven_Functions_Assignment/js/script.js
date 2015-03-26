@@ -1,7 +1,6 @@
 //Steven Lewis 032515 Functions Assignment
 
 //variables
-
 var flLotto = prompt("Do you want to play the Florida Lottery?");
 var winningNumber;
 
@@ -44,13 +43,17 @@ lotto = gameValidation(flLotto);
 winningNumber = lottoNumberGen(1, 53, 6);
 if (lotto === "yes") {
     console.log("Let's Play");
-}
-else{
+}else{
     console.log("Come Again");
 }
 if (lotto === "yes") {
+    var yourLottoNumbers = prompt("Enter your lotto numbers here");
     console.log("The winning numbers are " + (winningNumber));
+    if (yourLottoNumbers === winningNumber) {
+        alert("YOU WIN!!");
+    } else {
+        alert("Sorry, You did not win.");
+    }
 
 }
-
 
