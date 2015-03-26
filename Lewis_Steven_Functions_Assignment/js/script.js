@@ -28,11 +28,24 @@ function gameValidation (lotto) {
 
 }
 
+function lottoNumberGen (max, min){
+    var theFlLotto = Math.round(Math.random() * (max - min) + min);
+    console.log(theFlLotto);
+}
+
 //main code
 lotto = gameValidation(flLotto);
 if (lotto === "yes") {
     console.log("Let's Play");
 }
-
+else{
+    console.log("Come Again");
+}
+lottoNumberGen(1,53);
+lottoNumberGen(1,53);
+lottoNumberGen(1,53);
+lottoNumberGen(1,53);
+lottoNumberGen(1,53);
+lottoNumberGen(1,53);
 
 
