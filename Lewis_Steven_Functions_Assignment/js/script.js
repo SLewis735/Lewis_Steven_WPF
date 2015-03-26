@@ -1,7 +1,9 @@
 //Steven Lewis 032515 Functions Assignment
 
 //variables
+
 var flLotto = prompt("Do you want to play the Florida Lottery?");
+var winningNumber;
 
 // functions
 function gameValidation (lotto) {
@@ -28,24 +30,27 @@ function gameValidation (lotto) {
 
 }
 
-function lottoNumberGen (max, min){
-    var theFlLotto = Math.round(Math.random() * (max - min) + min);
-    console.log(theFlLotto);
+function lottoNumberGen (max, min, num) {
+    var lottoArray = [];
+    for (var i = 0; i < num; i++) {
+        var theFlLotto = Math.round(Math.random() * (max - min) + min);
+        lottoArray[i] = theFlLotto;
+    }
+    return lottoArray;
 }
 
 //main code
 lotto = gameValidation(flLotto);
+winningNumber = lottoNumberGen(1, 53, 6);
 if (lotto === "yes") {
     console.log("Let's Play");
 }
 else{
     console.log("Come Again");
 }
-lottoNumberGen(1,53);
-lottoNumberGen(1,53);
-lottoNumberGen(1,53);
-lottoNumberGen(1,53);
-lottoNumberGen(1,53);
-lottoNumberGen(1,53);
+if (lotto === "yes") {
+    console.log("The winning numbers are " + (winningNumber));
+
+}
 
 
