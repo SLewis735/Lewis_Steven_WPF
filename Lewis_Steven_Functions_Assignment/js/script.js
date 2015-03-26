@@ -4,7 +4,7 @@
 var flLotto = prompt("Do you want to play the Florida Lottery?");
 
 // functions
-function gameValidation (lotto){
+function gameValidation (lotto) {
     var timesClicked = 1;
 
     while (lotto === "") {
@@ -16,16 +16,20 @@ function gameValidation (lotto){
             console.log("Come back later to play the Florida Lottery.");
             break;
         }
+
     }
+    if (lotto === "yes") {
+        console.log("thank you");
+    }
+
+
+
 }
-
-
 
 //main code
 gameValidation(flLotto);
-if (flLotto = "yes"){
-    console.log("thank you");
-}
+
+
 
 
 
